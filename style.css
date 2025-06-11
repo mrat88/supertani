@@ -225,8 +225,8 @@ body {
   background-color: #FAFAFA;
   min-height: 100vh;
   color: #8A8787;
-  font-size: 0.9rem;
-  line-height: 1.4rem;
+  font-size: 1rem;
+  line-height: 1.6rem;
   overflow: hidden;
 }
 @media screen and (max-width: 575px) {
@@ -293,11 +293,11 @@ body h1, body h2, body h3, body h4, body h5, body h6, body strong, body b {
   letter-spacing: 1px;
 }
 body p {
-  font-size: 0.9rem;
+  font-size: 1rem;
 }
 @media screen and (max-width: 575px) {
   body p {
-    font-size: 0.8rem;
+    font-size: 0.9rem;
   }
 }
 body img {
@@ -715,6 +715,37 @@ body label.error {
   display: none;
 }
 .section-wedo .wedoSwiper .swiper-button-next:hover {
+  border-bottom-right-radius: 15px;
+}
+.section-wedo .wedoSwiper .swiper-button-prev {
+  bottom: 4%;
+  top: unset;
+  left: unset;
+  right: calc(7% + 65px);
+  width: 55px;
+  height: 55px;
+  background: rgba(250, 250, 250, 0.9);
+  border-radius: 50px;
+  background-image: url("./public/icon-right-arrow.png?v1.0.1");
+  background-size: 25px;
+  background-repeat: no-repeat;
+  background-position: center;
+  transform: rotate(180deg);
+  transition: all 0.5s ease-in-out !important;
+}
+@media screen and (max-width: 575px) {
+  .section-wedo .wedoSwiper .swiper-button-prev {
+    top: 46%;
+    left: calc(7% + 45px);
+    width: 40px;
+    height: 40px;
+    background-size: 20px;
+  }
+}
+.section-wedo .wedoSwiper .swiper-button-prev::after {
+  display: none;
+}
+.section-wedo .wedoSwiper .swiper-button-prev:hover {
   border-bottom-right-radius: 15px;
 }
 .section-wedo .why-choose {
@@ -1382,7 +1413,7 @@ body label.error {
 .section-contact .container .form input,
 .section-contact .container .form textarea {
   width: 100%;
-  height: 46px;
+  height: 42px;
   font-size: 0.9rem;
   border: none;
   border-bottom: 3px solid #ffffff;
@@ -1450,7 +1481,7 @@ body label.error {
   transition: 0.3s ease;
 }
 .section-contact .container .form .underline.textarea {
-  top: 140px;
+  top: 144px;
 }
 .section-contact .container .form .contact,
 .section-contact .container .form .email {

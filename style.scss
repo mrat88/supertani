@@ -206,8 +206,8 @@ body{
     background-color: $body-bg;
     min-height: 100vh;
     color: $text;
-    font-size: $font09;
-    line-height: $font14;
+    font-size: $font10;
+    line-height: $font16;
     overflow: hidden;
 
     @include xs{
@@ -289,10 +289,10 @@ body{
     }
 
     p{
-        font-size: $font09;
+        font-size: $font10;
 
         @include xs{
-            font-size: $font08;
+            font-size: $font09;
         }
 
     }
@@ -723,6 +723,39 @@ body{
                 @include xs{
                     top: 46%;
                     left: 300px;
+                    width: 40px;
+                    height: 40px;
+                    background-size: 20px;
+                }
+
+                &::after{
+                    display: none;
+                }
+
+                &:hover{
+                    border-bottom-right-radius: 15px;
+                }
+            }
+
+            .swiper-button-prev{
+                bottom: 4%;
+                top: unset;
+                left:unset;
+                right: calc(7% + 65px);
+                width: 55px;
+                height: 55px;
+                background: rgba($body-bg,0.9);
+                border-radius: 50px;
+                background-image: url('./public/icon-right-arrow.png?v1.0.1');
+                background-size: 25px;
+                background-repeat: no-repeat;
+                background-position: center;
+                transform: rotate(180deg);
+                @include transition(all .5s ease-in-out);
+
+                @include xs{
+                    top: 46%;
+                    left: calc(7% + 45px);
                     width: 40px;
                     height: 40px;
                     background-size: 20px;
@@ -1349,7 +1382,7 @@ body{
                 input,
                 textarea {
                     width: 100%;
-                    height: 46px;
+                    height: 42px;
                     font-size: $font09;
                     border: none;
                     border-bottom: 3px solid $white;
@@ -1420,7 +1453,7 @@ body{
                     transition: 0.3s ease;
 
                     &.textarea{
-                        top: 140px;
+                        top: 144px;
                     }
                 }
 
