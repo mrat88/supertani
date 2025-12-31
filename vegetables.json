@@ -1,0 +1,188 @@
+{
+    "vegetables": [
+        {
+            "id": 1,
+            "name": "Choy Tham",
+            "description": "Fresh Choy Tham is a popular Asian leafy green known for its tender, crisp texture and mildly sweet flavor. Commonly used in stir-fries, soups, and salads, it is rich in vitamins A, C, and K, as well as dietary fiber and antioxidants, making it a nutritious choice for everyday meals.",
+            "weight":"1 PKT / 500G (+/-)",
+            "country_of_origin": "Malaysia",
+            "category": "Leafy"
+        },
+        {
+            "id": 2,
+            "name": "Kai Lan (Chinese Broccoli)",
+            "description": "Kai Lan, also known as Chinese broccoli, features thick stems and glossy green leaves with a slightly bitter taste when cooked. Ideal for stir-fries and steaming, this nutrient-dense vegetable is high in vitamins A, C, and K, calcium, and fiber.",
+            "weight": "1 PKT / 250G (+/-)",
+            "country_of_origin": "Malaysia",
+            "category": "Leafy"
+        },
+        {
+            "id": 3,
+            "name": "Hong Kong Kai Lan",
+            "description": "Hong Kong Kai Lan offers a stronger, slightly more bitter flavor compared to regular broccoli. Commonly stir-fried with garlic and ginger or lightly boiled, it is a favorite in Chinese cuisine and a good source of essential vitamins and minerals.",
+            "weight": "1 PKT / 250G (+/-)",
+            "country_of_origin": "China",
+            "category": "Leafy"
+        },
+        {
+            "id": 4,
+            "name": "Green Kale",
+            "description": "Green kale is a nutrient-rich superfood with thick, curly leaves and a robust, earthy flavor. Perfect for salads, smoothies, or cooking, it is packed with vitamins A, B6, C, and K, along with minerals that support immunity, bone health, and overall wellness.",
+            "weight": "1 PKT / 120G (+/-)",
+            "country_of_origin": "Malaysia",
+            "category": "Leafy"
+        },
+        {
+            "id": 5,
+            "name": "Red Kale",
+            "description": "Red kale features beautiful deep purple leaves with a mildly sweet flavor. High in antioxidants, vitamins A, C, and K, and essential minerals, it is ideal for salads, smoothies, or cooked dishes, adding both vibrant color and nutrition.",
+            "weight": "1 PKT / 120G (+/-)",
+            "country_of_origin": "Malaysia",
+            "category": "Leafy"
+        },
+        {
+            "id": 6,
+            "name": "Tuscan Kale (Dinosaur Kale)",
+            "description": "Tuscan kale, also known as dinosaur kale, has long, textured leaves and a slightly bitter flavor. Its hearty texture makes it excellent for sautéing, soups, and stews. This superfood is rich in vitamins A, C, and K and essential minerals.",
+            "weight": "1 PKT / 120G (+/-)",
+            "country_of_origin": "Malaysia",
+            "category": "Leafy"
+        },
+        {
+            "id": 7,
+            "name": "Coral Green Lettuce",
+            "description": "Coral green lettuce has soft, curly leaves with a mild, slightly sweet flavor. Perfect for fresh salads and garnishes, it provides vitamins A, C, and K, fiber, and antioxidants while adding vibrant color to your plate.",
+            "weight": "1 PKT / 200G (+/-)",
+            "country_of_origin": "Malaysia",
+            "category": "Leafy"
+        },
+        {
+            "id": 8,
+            "name": "Red Coral Lettuce",
+            "description": "Red coral lettuce features tender red-tinged leaves with a mild, refreshing taste. Commonly used in salads, it is rich in vitamins A, C, and K and antioxidants, making it a healthy and visually appealing choice.",
+            "weight": "1 PKT / 200G (+/-)",
+            "country_of_origin": "Malaysia",
+            "category": "Leafy"
+        },
+        {
+            "id": 9,
+            "name": "Lettuce Ice Plant",
+            "description": "Ice plant lettuce offers crisp, juicy leaves with a refreshing mild flavor. Ideal for salads and cold dishes, it is low in calories and provides essential vitamins and antioxidants for a healthy diet.",
+            "weight": "1 PKT / 100G (+/-)",
+            "country_of_origin": "Malaysia",
+            "category": "Leafy"
+        },
+        {
+            "id": 10,
+            "name": "Iceberg Lettuce",
+            "description": "Iceberg lettuce is known for its crunchy texture and clean, refreshing taste. Popular in salads, sandwiches, and wraps, it adds volume and crunch while providing vitamins A, C, and K.",
+            "weight": "1 PKT / 400G (+/-)",
+            "country_of_origin": "Malaysia",
+            "category": "Leafy"
+        },
+        {
+            "id": 11,
+            "name": "Mesclun Mix Lettuce",
+            "description": "Mesclun mix is a premium blend of young, tender salad greens with a mild, slightly sweet flavor. Perfect for fresh salads, this mix is rich in vitamins A, C, and K, fiber, and antioxidants.",
+            "weight": "1 PKT / 250G (+/-)",
+            "country_of_origin": "Malaysia",
+            "category": "Leafy"
+        },
+        {
+            "id": 12,
+            "name": "Romaine Lettuce",
+            "description": "Romaine lettuce has long, crisp leaves with a slightly sweet flavor. A staple for Caesar salads, it is high in vitamins A, C, and K and provides a satisfying crunch and nutritional value.",
+            "weight": "1 PKT / 250G (+/-)",
+            "country_of_origin": "Malaysia",
+            "category": "Leafy"
+        },
+        {
+            "id": 13,
+            "name": "Baby Romaine Lettuce",
+            "description": "Baby romaine lettuce offers tender, crunchy leaves with a mild flavor. Ideal for salads and wraps, it delivers essential vitamins and fiber in a smaller, more delicate form.",
+            "weight": "1 PKT / 250G (+/-)",
+            "country_of_origin": "Malaysia",
+            "category": "Leafy"
+        },
+        {
+            "id": 14,
+            "name": "Nai Pak Choy",
+            "description": "Nai Pak Choy is a mild, tender Chinese cabbage with crisp stems and soft leaves. Commonly used in stir-fries and soups, it is rich in vitamins A, C, and K and cooks quickly while retaining flavor.",
+            "weight": "1 PKT / 250G (+/-)",
+            "country_of_origin": "Malaysia",
+            "category": "Leafy"
+        },
+        {
+            "id": 15,
+            "name": "Poh Choy",
+            "description": "Poh Choy is a versatile Chinese leafy vegetable with a mild, slightly sweet taste. Suitable for soups and stir-fries, it provides essential vitamins and fiber for balanced meals.",
+            "weight": "1 PKT / 300G (+/-)",
+            "country_of_origin": "Malaysia",
+            "category": "Leafy"
+        },
+        {
+            "id": 16,
+            "name": "Sawi",
+            "description": "Sawi is a popular Asian leafy green with tender leaves and a mild flavor. Frequently used in stir-fries and soups, it is a good source of vitamins A, C, and K and complements a wide range of dishes.",
+            "weight": "1 PKT / 250G (+/-)",
+            "country_of_origin": "Malaysia",
+            "category": "Leafy"
+        },
+        {
+            "id": 17,
+            "name": "Hong Kong Choy Sum",
+            "description": "Hong Kong Choy Sum features tender stems and leafy tops with a mildly sweet flavor. Commonly stir-fried or added to soups, it is a nutritious vegetable rich in vitamins and minerals.",
+            "weight": "1 PKT / 250G (+/-)",
+            "country_of_origin": "Malaysia",
+            "category": "Leafy"
+        },
+        {
+            "id": 18,
+            "name": "Siew Pak Choy",
+            "description": "Siew Pak Choy has crisp white stems and soft green leaves with a mild, sweet taste. Ideal for stir-fries and soups, it cooks quickly and absorbs flavors well. Rich in vitamins A, C, and K, it is a healthy addition to any meal.",
+            "weight": "1 PKT / 250G (+/-)",
+            "country_of_origin": "Malaysia",
+            "category": "Leafy"
+        },
+        {
+            "id": 19,
+            "name": "Hong Kong Siew Pak Choy",
+            "description": "Hong Kong Siew Pak Choy offers extra-tender stems and delicate leaves. Popular in Chinese cooking, it is perfect for soups and light stir-fries and provides essential vitamins.",
+            "weight": "1 PKT / 250G (+/-)",
+            "country_of_origin": "Malaysia",
+            "category": "Leafy"
+        },
+        {
+            "id": 20,
+            "name": "Spinach (Bayam)",
+            "description": "Fresh spinach, also known as bayam, has tender dark green leaves and a mild, earthy flavor. Ideal for soups, stir-fries, and smoothies, it is rich in vitamins A, C, and K and antioxidants.",
+            "weight": "1 PKT / 250G (+/-)",
+            "country_of_origin": "Malaysia",
+            "category": "Leafy"
+        },
+        {
+            "id": 21,
+            "name": "Tong Ho",
+            "description": "Tong Ho, also known as chrysanthemum greens, has aromatic leaves with a slightly herbal flavor. Commonly used in soups and stir-fries, it adds fragrance and nutrients to meals. Rich in vitamins A, C, and K, it is a healthy addition to any dish.",
+            "weight": "1 PKT / 250G (+/-)",
+            "country_of_origin": "Malaysia",
+            "category": "Leafy"
+        },
+        {
+            "id": 22,
+            "name": "Water Spinach (Kangkung)g",
+            "description": "Water spinach, also known as kangkung, features hollow stems and tender leaves with a mild, earthy taste. Widely used in Asian stir-fries, it is rich in vitamins A, C, and K.",
+            "weight": "1 PKT / 250G (+/-)",
+            "country_of_origin": "Malaysia",
+            "category": "Leafy"
+        },
+        {
+            "id": 23,
+            "name": "Watercress",
+            "description": "Watercress is a peppery, nutrient-dense leafy green from the Brassicaceae family. Low in calories and high in vitamins A, C, and K, fiber, calcium, and antioxidants, it is excellent for salads and soups.",
+            "weight": "1 PKT / 300G (+/-)",
+            "country_of_origin": "Malaysia",
+            "category": "Leafy"
+        }
+    ]
+}

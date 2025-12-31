@@ -1291,7 +1291,7 @@ body{
     }
 
     &-partner{
-        min-height: 70vh;
+        min-height: 60vh;
 
         @include xg{
             min-height: 30vh;
@@ -1345,11 +1345,11 @@ body{
             }
 
             @include xs{
-                bottom: -10%;
-                width: 200px;
-                height: 120px;
+                bottom: 0;
+                width: 100px;
+                height: 70px;
                 z-index: 2;
-                right: -15%;
+                right: 0%;
                 @include backgroundImageWebp('./public/vege-4-m.png?v1.0.1', './public/vege-4-m.webp?v1.0.1');
             }
         }
@@ -1405,6 +1405,153 @@ body{
                     }
                 }
             }
+        }
+    }
+
+    &-product{
+        .product-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            margin-bottom: 50px;
+        }
+
+        .product-card {
+            background: white;
+            border-radius: 15px;
+            padding: 20px;
+            // box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            padding-top:70px;
+            position: relative;
+
+            @include xs{
+                padding-top:35px;
+            }
+
+            &:hover{
+                transform: translateY(-5px);
+                box-shadow: 0 15px 40px rgba(0,0,0,0.3);
+            }
+        }
+
+        .product-id {
+            display: inline-block;
+            background: #667eea;
+            color: white;
+            padding: 5px 12px;
+            border-radius: 20px;
+            font-size: 0.85em;
+            margin-bottom: 10px;
+        }
+
+        .product-name {
+            font-size: $font10;
+            margin-bottom: 10px;
+            font-weight: bold;
+        }
+
+        .product-image{
+            width: 150px;
+            height: 150px;
+            top: -75px;
+            position:absolute;
+            right: 5px;
+
+            @include xs{
+                top:-70px;
+            }
+
+            // &::before{
+            //     @include before;
+            //     content:'';
+            //     width: 100%;
+            //     height: 100%;
+            //     border-radius: 12px;
+            //     top:0;
+            //     left:0;
+            //     @include backgroundImageWebp('./public/dish.png?v1.0.1', './public/dish.webp?v1.0.1');
+            //     background-size: contain;
+            //     filter:drop-shadow(1px 3px 5px rgba($primary-color,  0.65));
+            // }
+
+            img{
+                z-index: 2;
+                position: relative;
+                // top:-25px;
+
+                @include xs{
+                    width: 140px;
+                    height: 140px;
+                }
+            }
+        }
+
+        .product-description {
+            // color: #666;
+            line-height: $font12;
+            font-size: $font08;
+            margin-bottom: 12px;
+        }
+
+        .product-weight {
+            color: #764ba2;
+            font-weight: 600;
+            margin-bottom: 8px;
+        }
+
+        .product-country {
+            color: #888;
+            font-size: 0.9em;
+            font-style: italic;
+        }
+
+        .pagination {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 10px;
+            flex-wrap: wrap;
+        }
+
+        .pagination button {
+            background: $white;
+            border: none;
+            width:30px;
+            height:30px;
+            border-radius: 50%;
+            cursor: pointer;
+            font-size: $font08;
+            transition: all 0.3s ease;
+            color:text;
+        }
+
+        .pagination button:hover:not(:disabled) {
+            background: $primary-color;
+            color:$white;
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(0,0,0,0.2);
+
+            img{
+                filter: invert(99%) sepia(15%) saturate(2%) hue-rotate(240deg) brightness(113%) contrast(101%);
+            }
+        }
+
+        .pagination button.active {
+            background: $primary-color;
+            color: $white;
+        }
+
+        .pagination button:disabled {
+            opacity: 0.5;
+            cursor: not-allowed;
+        }
+
+        .page-info {
+            padding: 10px 20px;
+            font-size: $font08;
+            font-weight: 600;
+            // box-shadow: 0 4px 15px rgba(0,0,0,0.1);
         }
     }
 
